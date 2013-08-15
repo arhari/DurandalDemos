@@ -1,0 +1,33 @@
+﻿@model int
+
+@{
+	ViewBag.Title = "Contract Summary";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Contract @Model</h2>
+
+<div id="applicationHost">
+</div>
+
+@section scripts
+{
+	<script>
+		define('pageConfig', {
+			url: 'Contract/Summary/Index',
+			modules: [
+				'General',
+				'Flows',
+				{
+					url: 'AssetManager',
+					visible: false,
+					modal: true
+				},
+				'Tasks'
+			],
+			initArgs: {
+				id: @Model
+			}
+		});
+	</script>
+}

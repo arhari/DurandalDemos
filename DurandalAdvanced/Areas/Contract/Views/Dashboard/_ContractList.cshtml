@@ -1,0 +1,26 @@
+﻿<section>
+	<h4>All Contracts (@DateTime.Now)</h4>
+
+	<div class="row-fluid">
+		<table class="table table-striped table-hover">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Product</th>
+					<th>Date</th>
+					<th>Amount</th>
+				</tr>
+			</thead>
+			<tbody data-bind="foreach: model">
+				<tr>
+					<td>
+						<a data-bind="text: Id, attr: { href: '@Url.Action("Index", "Summary", new { area = "Contract" })' + '/' + Id }"></a>
+					</td>
+					<td data-bind="text: Product"></td>
+					<td data-bind="text: CalcDate"></td>
+					<td data-bind="text: Amount"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</section>

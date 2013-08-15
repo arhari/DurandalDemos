@@ -1,0 +1,16 @@
+﻿<div>
+   <nav>
+      <ul class="nav nav-pills" data-bind="foreach: router.visibleRoutes">
+         <li data-bind="css: {active: isActive}">
+            <a data-bind="attr: {href: hash}, html: name"></a>
+         </li>
+      </ul>
+   </nav>
+
+   <div class="container-fluid">
+      <!--
+         ko compose: { model: router.activeItem, afterCompose: router.afterCompose, transition: 'entrance' }
+         -->
+      <!--/ko-->
+   </div>
+</div>

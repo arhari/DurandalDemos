@@ -1,0 +1,1 @@
+{"version":3,"file":"Calculator.js","sourceRoot":"","sources":["Calculator.ts"],"names":["ContractCalculator","ContractCalculator.constructor","ContractCalculator.calculate"],"mappings":"AAAA,8EAA8E;;;;;;;AAA9E;IAEA,oBAA+B,iBAAe;;IAE9C;;QAAAA;;;AAICA,QAHEA,yCAAAA;YACGE,IAAIA,CAACA,KAAKA,CAACA,gBAAgBA,CAACA,CAACA;QAChCA,CAACA;QACJF;AAACA,IAADA,CAACA,EAJgC,aAAa,EAI7C;;;;GAE2B"}

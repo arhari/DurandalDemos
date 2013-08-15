@@ -1,0 +1,25 @@
+﻿@model dynamic
+
+@{
+	ViewBag.Title = "Contracts";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Contracts</h2>
+
+<div id="applicationHost">
+</div>
+
+@section scripts
+{
+	<script>
+		define('pageConfig', {
+			url: 'Contract/Dashboard/Index',
+			modules: [
+				{
+					url: 'ContractList',
+					visible: false
+				}],
+		});
+	</script>
+}

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>@ViewBag.Title - Durandal Advanced</title>
+      <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+      @Styles.Render("~/Content/css")
+      @Scripts.Render("~/bundles/modernizr")
+   </head>
+   <body>
+      <header class="navbar navbar-fixed-top">
+         <div class="navbar-inner">
+            <div class="container-fluid">
+               <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               @Html.ActionLink("Durandal Advanced", "Index", "Home", new { Area = "" }, new { @class = "brand" })
+               <div class="nav-collapse collapse">
+                  <ul class="nav">
+                     <li>@Html.ActionLink("Contracts", "Index", "Dashboard", new { Area = "Contract" }, null)</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <div class="container-fluid">
+         @RenderBody()
+         <hr />
+         <footer>
+            <p>&copy; @DateTime.Now.Year</p>
+         </footer>
+      </div>
+
+      @Scripts.Render("~/bundles/scripts")
+      <script type="text/javascript">
+         window.rootUrl = '@Url.Content("~/")';
+      </script>
+
+      @{
+         var isClassicPage = (bool?)ViewBag.IsClassicPage;
+         var useRequireJs = !(isClassicPage.HasValue && isClassicPage.Value);
+      }
+
+      @if (useRequireJs)
+      {
+         <script type="text/javascript" src="@Url.Content("~/Areas/durandal/amd/require.js")" data-main="@Url.Content("~/Areas/main")"> </script>
+      }
+
+      @RenderSection("scripts", useRequireJs)
+   </body>
+</html>

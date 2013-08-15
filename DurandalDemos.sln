@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurandalBasic", "DurandalBasic\DurandalBasic.csproj", "{73CC5161-C237-40DE-8729-5867D9F470A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurandalWithTypeScript", "DurandalWithTypeScript\DurandalWithTypeScript.csproj", "{C509CC3C-8E9B-4E12-8DED-DFDD4038426F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{36C05365-0501-46A3-A70A-99A8E0547E66}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurandalWithDynamicViews", "DurandalWithDynamicViews\DurandalWithDynamicViews.csproj", "{1051A2A7-9ACA-4003-A292-0CB8FB3C896E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurandalAdvanced", "DurandalAdvanced\DurandalAdvanced.csproj", "{E4586179-9A0E-48DE-B71C-B565EB26705E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73CC5161-C237-40DE-8729-5867D9F470A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CC5161-C237-40DE-8729-5867D9F470A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CC5161-C237-40DE-8729-5867D9F470A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CC5161-C237-40DE-8729-5867D9F470A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C509CC3C-8E9B-4E12-8DED-DFDD4038426F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C509CC3C-8E9B-4E12-8DED-DFDD4038426F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C509CC3C-8E9B-4E12-8DED-DFDD4038426F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C509CC3C-8E9B-4E12-8DED-DFDD4038426F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1051A2A7-9ACA-4003-A292-0CB8FB3C896E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1051A2A7-9ACA-4003-A292-0CB8FB3C896E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1051A2A7-9ACA-4003-A292-0CB8FB3C896E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1051A2A7-9ACA-4003-A292-0CB8FB3C896E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4586179-9A0E-48DE-B71C-B565EB26705E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4586179-9A0E-48DE-B71C-B565EB26705E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4586179-9A0E-48DE-B71C-B565EB26705E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4586179-9A0E-48DE-B71C-B565EB26705E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
