@@ -15,7 +15,7 @@ namespace DurandalAdvanced.Areas.Contract
             "Contract_default",
             "Contract/{controller}/{action}/{id}",
             new { id = UrlParameter.Optional },
-            new[] { "DurandalAllTogether.Areas.Contract.Controllers" }
+            new[] { "DurandalAdvanced.Areas.Contract.Controllers" }
             );
       }
    }

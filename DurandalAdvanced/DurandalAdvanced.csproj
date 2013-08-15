@@ -148,6 +148,8 @@
     </Content>
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Content\toastr.min.css" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
     <Content Include="Scripts\jquery-2.0.3.js" />
     <Content Include="Scripts\jquery-2.0.3.min.js" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
@@ -247,7 +249,6 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Areas\ViewModelBase.ts" />
-    <Content Include="Content\images\icon.png" />
     <Content Include="favicon.ico" />
     <Content Include="Scripts\jquery.mockjson.js" />
     <Content Include="Scripts\knockout.activity.js" />
@@ -285,8 +286,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\durandal.css" />
-    <Content Include="Content\images\glyphicons-halflings-white.png" />
-    <Content Include="Content\images\glyphicons-halflings.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\underscore.string.js" />
